@@ -10,11 +10,34 @@ using System.Windows.Forms;
 
 namespace Adding_to_resources_assignment
 {
-    public partial class Form1 : Form
+    public partial class rbtncpu : Form
     {
-        public Form1()
+        public rbtncpu()
         {
             InitializeComponent();
+        }
+
+        
+
+        private void rbtnram_CheckedChanged(object sender, EventArgs e)
+        {
+            imgCPU.Image= Properties.Resources.RAM_Memory;
+        }
+
+        private void rbtnssd_CheckedChanged(object sender, EventArgs e)
+        {
+            imgCPU.Image = Properties.Resources.SSDGOOD;
+        }
+
+        private void rbtnpowersupply_CheckedChanged(object sender, EventArgs e)
+        {
+            imgCPU.Image= Properties.Resources.power_supply;
+        }
+
+        private void rbtnimputperipheral_CheckedChanged(object sender, EventArgs e)
+        {
+            imgCPU.Image = Properties.Resources.inputone;
+            
         }
     }
 }

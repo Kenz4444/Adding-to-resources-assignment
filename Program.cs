@@ -16,7 +16,7 @@ namespace Adding_to_resources_assignment
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new rbtncpu());
         }
     }
 }
