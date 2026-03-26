@@ -93,6 +93,26 @@ namespace Adding_to_resources_assignment.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap outputone {
+            get {
+                object obj = ResourceManager.GetObject("outputone", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap outputtwo {
+            get {
+                object obj = ResourceManager.GetObject("outputtwo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap power_supply {
             get {
                 object obj = ResourceManager.GetObject("power_supply", resourceCulture);
@@ -117,6 +137,15 @@ namespace Adding_to_resources_assignment.Properties {
             get {
                 object obj = ResourceManager.GetObject("SSDGOOD", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        internal static string String1 {
+            get {
+                return ResourceManager.GetString("String1", resourceCulture);
             }
         }
     }

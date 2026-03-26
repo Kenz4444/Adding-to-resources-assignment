@@ -117,4 +117,10 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="txtCPU.Text" xml:space="preserve">
+    <value>The CPU is the component of a computer system that performs the system's basic operations (such as processing data), that exchanges data with the system's memory or peripherals, and that manages the system's other components</value>
+  </data>
+  <data name="txtRAM.Text" xml:space="preserve">
+    <value>Random access memory (RAM) is the hardware in a computing device that provides temporary storage for the operating system, software programs and any other data in current use so they're quickly available to the device's processor. </value>
+  </data>
 </root>
